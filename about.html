@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -38,7 +39,6 @@
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="Menu.html">Menu</a></li>
                                         <li><a href="about.html">About</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -214,6 +214,7 @@
 </div>
 <!-- testimonial_area_ned  -->
 
+    <!-- footer_start  -->
     <footer class="footer">
             <div class="footer_top">
                 <div class="container">
@@ -266,13 +267,36 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="copy_right text-center">
-&copy;2025 QuolyTech All rights reserved.
+                                &copy;2025 
+                                <a style="color: black;" href="https://quolytech.com">QuolyTech
+                                </a>
+                                All rights reserved.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+    <!-- footer_end  -->
+
+    <div id="delivery-button" style="position: fixed; bottom: 30px; right: 30px; z-index: 9999;">
+    <a href="tel:+355691232323" style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        background: #ff6b35;
+        color: white;
+        border-radius: 50%;
+        text-decoration: none;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    " onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
+        <i class="fa-solid fa-motorcycle"></i>
+    </a>
+</div>
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
