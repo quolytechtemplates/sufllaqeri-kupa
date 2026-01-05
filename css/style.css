@@ -19,8 +19,10 @@
 }
 
 .thumb img {
-  width: 100px;
-  height: auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Normal desktop :1200px. */
